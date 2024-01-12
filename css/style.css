@@ -14,13 +14,15 @@
   .main{
     width: 90%;
     height: 100%;
-    margin: 0 70px 10px 70px;
+    margin-left: 80px;
+    /* margin: 0 70px 10px 70px; */
   }
   .navbar{
     display: flex;
-    
+    width: 100%;
+    margin-left: 60px;
     padding: 10px;
-    border-bottom: 1px solid hsl(223, 64%, 98%);
+    border-bottom: 1px solid hsl(220, 5%, 87%);
    
   }
   .nav-start{
@@ -54,10 +56,10 @@
   .main-card {
     display: flex;
     gap: 20px;
-    height: 80%;
+    height: 90%;
     padding: 20px;
     margin-left: 60px;
-    background-color: yellow;
+    /* background-color: yellow; */
 
   }
   
@@ -71,7 +73,7 @@
   }
   
   .large-img-card {
-    width: 96%;
+    width: 100%;
   }
   
   .large-img-card>img {
