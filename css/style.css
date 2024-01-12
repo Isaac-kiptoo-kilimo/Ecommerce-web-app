@@ -19,18 +19,19 @@
   }
   .navbar{
     display: flex;
+    justify-content: space-between;
     width: 90%;
     margin-left: 60px;
     padding: 5px 10px;
     border-bottom: 1px solid hsl(220, 5%, 87%);
-   
+
   }
   .nav-start{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
-   
+
   }
   
   .nav-start>ul{
@@ -40,13 +41,15 @@
     list-style: none;
     color: hsl(219, 9%, 45%);
     margin-left: 20px;  
+    
   }
   
   .nav-end{
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 20px 0;
     gap: 20px;
+
   }
   
   .nav-end>img{
