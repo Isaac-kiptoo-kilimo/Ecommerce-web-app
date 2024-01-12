@@ -56,7 +56,9 @@
     gap: 20px;
     height: 80%;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 60px;
+    background-color: yellow;
+
   }
   
   .img-card {
@@ -69,7 +71,7 @@
   }
   
   .large-img-card {
-    width: 100%;
+    width: 96%;
   }
   
   .large-img-card>img {
@@ -162,3 +164,12 @@
     border-radius: 10px;
     color: white;
   }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
